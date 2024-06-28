@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Document</title>
+  <style>
+
+* {box-sizing: border-box;}
+
+
+body { 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  overflow: hidden;
+  background-color:black;
+  padding: 20px 10px;
+  height: 150px;
+}
+
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 50px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 100px;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
+#v{
+  margin-left: 30px;
+  padding-left: 150px;
+  text-decoration:none;
+}
+#T{
+  margin-top: 20px;
+  padding-left: 480px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 70px;
+  color:darkturquoise;
+}
+#secon{
+    background-color: yellow;
+    color: black;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+    
+
+    .box {
+        width: 300px;
+        height: 100px;
+        margin: 50px;
+        background-color: #3498db;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+    }
+
+     
+     .marquee {
+    
+          white-space: nowrap;
+          overflow: hidden;
+          margin-bottom: 10px;
+          font-size: 20px;
+          color:blue;
+      }
+
+      .container {
+      display: flex;
+      margin-left: 200px;
+    }
+    
+    .box {
+      flex: 1;
+      margin: 10px;
+      padding: 20px;
+      background-color: lightblue;
+      text-align: center;
+      transition: background-color 0.3s;
+      color: crimson;
+    }
+    
+    .box:hover {
+      background-color: rgb(162, 128, 240);
+    }
+    
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+    #space{
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <a href="project.html" class="logo"><img src="c:\Users\VATSAL\Downloads\company.jpg" width="110px" height="110px"/></a>
+  <div class="header-right">
+    <a class="active" href="project.html">Home</a>
+    <a href="bj.html" style="color: yellow;">Contact</a>
+    <a href="aboutus.html" style="color: yellow;">About</a>
+  </div>
+  <h1><div id="T">JobManch </div></h1>
+
+</div>
+<h1 align="center" style="color:rgb(255, 0, 221)">Welcome to India's No. 1 Government job portal</h1>
+<div id="v">
+<p><h2 > <a href="#" style="color:red;">JobManch Youtube Channel  ||</a>   <a href="#" style="color:green;">JobManch Android App  || </a>   <a href="#" style="color:blue">Follow JobManch On Instagram</a></h2></>
+  </div>
+
+
+ <div id="space"></div>
+
+  
+
+  <body>
+  
+  <div class="marquee" onmouseover="stopMarquee('marquee1')" onmouseout="startMarquee('marquee1')">
+      <marquee id="marquee1" behavior="alternate" direction="left"> NTA JEEMAIN Session II Online Form 2024 || CTET January 2024 Answer Key | | NTA JEEMAIN Session I Answer Key 2024</marquee>
+  </div>
+  
+  <div class="marquee" onmouseover="stopMarquee('marquee2')" onmouseout="startMarquee('marquee2')">
+ 
+  <marquee id="marquee2" behavior="alternate" direction="left">    RPSC Senior Teacher Online Form 2024 || UKPSC Sub Inspector Online Form 2024 || JPSC Pre Online Form 2024                                                                                 </marquee>
+  </div>
+  
+  <div class="marquee" onmouseover="stopMarquee('marquee3')" onmouseout="startMarquee('marquee3')">
+      <marquee id="marquee3" behavior="alternate" direction="left"> UPPSC RO/ARO Admit Card 2024  || UPSSSC PET 2023 Certificate || Bihar DELED 2024 Online Form </marquee>
+  </div>
+  
+  <script>
+      function stopMarquee(marqueeId) {
+          var marqueeElement = document.getElementById(marqueeId);
+          marqueeElement.stop(); 
+      }
+      
+      function startMarquee(marqueeId) {
+          var marqueeElement = document.getElementById(marqueeId);
+          marqueeElement.start(); 
+      }
+  </script>
+  
+  </body>
+  </html>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="space">
+ 
+</div>
+
+<div id="space">
+
+</div>
+
+
+  <div class="container">
+    <a href="example.html"><div class="box">LATEST JOBS</div></a>
+    <a href="#"><div class="box">RESULTS</div></a>
+    <a href="#"><div class="box">SYLLABUS</div></a>
+  </div>
+  
+  
+
+
+
+  <div class="container">
+    <a href="example.html"><div class="box">CERTIFICATES</div></a>
+    <a href="example.html"><div class="box">ANSWER KEY</div></a>
+    <a href="example.html"><div class="box">ADMISSIONS</div></a>
+  </div>
+  
+  
+  <div class="container">
+
+    <a href="example.html"><div class="box">ADMIT CARD</div></a>
+    <a href="example.html"><div class="box">COURSES</div></a>
+    <a href="example.html"><div class="box">TOOLS</div></a>
+  
+
+
+  </div>
+
+
+
+
+<div>
+<div style="color: maroon; background-color: khaki; padding-left: 350px;"><h1>Why You Should Consider Government Job</h1></div>
+<pre >
+<h2 style="text-align: center; background-color: chartreuse; height: 540px; width: 1348px;">
+  In India, getting a government job, known as a Sarkari Naukri, is like hitting the jackpot for many people. 
+  These jobs are super popular because they 
+  
+  offer stability, good perks, and nice colleagues. Plus, they let you feel like you're doing something 
+  important for your community.
+  
+  The job market in India can be a bit tricky, with unemployment going up and down. So, when things are uncertain, 
+  a government job feels 
+ 
+  even more appealing because it's reliable.
+  
+  And hey, these jobs pay well too! Some of the top gigs like Indian Administrative Services (IAS) and 
+  Indian Police Services (IPS)
+   come with great salaries,
+  
+  benefits, and even pensions when you retire.
+  
+  But here's the kicker: snagging one of these jobs is tough! The application process can be a real puzzle. 
+  
+  So, while they're awesome, they're also super competitive.
+  
+  
+  
+  
+  </h2>
+</pre>
+</div>
+
+<div id="secon">
+  <footer>&#169 All rights reserved by JobManch</footer>
+  <footer>&hearts; Since 1990</footer>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
